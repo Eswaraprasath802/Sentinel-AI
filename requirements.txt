@@ -1,0 +1,9 @@
+# Core
+google-generativeai>=0.5.0
+python-dotenv>=1.0.0
+
+# Optional — only needed if you use Elasticsearch logging
+elasticsearch>=8.0.0
+
+# Optional — only needed for WhatsApp alerts
+twilio>=8.0.0
