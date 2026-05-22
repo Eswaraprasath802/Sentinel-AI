@@ -1,0 +1,22 @@
+{
+    "name": "sentinel/sentinel-php",
+    "description": "Sentinel AI Auto-Healing SDK for PHP / Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sentinel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sentinel\\SentinelServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "ext-curl": "*"
+    }
+}
